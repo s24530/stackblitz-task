@@ -1,18 +1,36 @@
 {
-  "name": "stackblitz-starters-dwkenr",
+  "homepage": "https://s24530.github.io/stackblitz-task",
+  "name": "stackblitz-starters-jgdshn",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --public-url=https://s24530.github.io/stackblitz-task",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
