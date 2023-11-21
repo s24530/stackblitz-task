@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stackblitz-task/static/css/main.be2963ec.css",
+    "main.js": "/stackblitz-task/static/js/main.df8b4a6c.js",
+    "index.html": "/stackblitz-task/index.html",
+    "main.be2963ec.css.map": "/stackblitz-task/static/css/main.be2963ec.css.map",
+    "main.df8b4a6c.js.map": "/stackblitz-task/static/js/main.df8b4a6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be2963ec.css",
+    "static/js/main.df8b4a6c.js"
+  ]
+}
